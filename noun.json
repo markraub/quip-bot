@@ -1,54 +1,4 @@
-{
-  "origin": [
-    "#[ad1:#adjectives#][noun1:#nouns#][noun2:#nouns#][ad2:#adjectives#][noun3:#nouns#]result#"
-  ],
-
-  "result": [
-    "#burns#"
-  ],
-
-  "burns": [
-    "Yo Momma is so #ad1#, that her #noun2# is #ad2#",
-    "Yo Momma's booty is so #ad1#, that it's #ad2# like a #noun1#",
-    "A #noun1# in the #noun2# is worth two in the #noun3#",
-    "Slow and steady wins the #noun1#",
-    "Take it with a grain of #noun1#",
-    "The best thing since #ad1.capitalize# #noun1.capitalize#",
-    "You can catch more flies with #noun1# than you can with a #noun2#",
-    "#ad1.capitalize# and #ad2# wins the race",
-    "Siskel and Ebert have panned #ad1.capitalize# #noun1.capitalize# as “poorly conceived” and “sloppily executed.”",
-    "Up next on Nickelodeon: “Clarissa Explains #noun1.capitalize#.”",
-    "I’m a bitch, I’m a lover, I’m a child, I’m a #noun1#.",
-    "How did Stella get her groove back? #ad1# #noun1#",
-    "Believe it or not, Jim Carrey can do a dead-on impression of #noun1.capitalize#.",
-    "It’s Morphin’ Time! Mastodon! Pterodactyl! #noun1.capitalize#",
-    "Triceratops! Sabertooth Tiger! #ad1.capitalize# #noun1.capitalize#!",
-    "Tonight on SNICK: “Are You Afraid of #noun1.capitalize#?”",
-    "I can’t believe Netflix is using #ad1# #noun1# to promote House of Cards.",
-    "I’m not going to lie. I despise #ad1# #noun1#. There, I said it.",
-    "A wise man said, “Everything is about sex. Except sex. Sex is about #noun1#.”",
-    "Corruption. Betrayal. #noun1.capitalize#. Coming soon to Netflix,",
-    "“House of #noun1.capitalize#.”",
-    "Our relationship is strictly professional. Let’s not complicate things with #ad1# #noun1#",
-    "Because you enjoyed #noun1#, we thought you’d like #ad1# #noun2#.",
-    "Cancel all my meetings. We’ve got a situation with #noun1# that requires my immediate attention.",
-    "If you need him to, Remy Danton can pull some strings and get you #ad1# #noun1#, but it’ll cost you.",
-    "You can’t wait forever. It’s time to talk to your doctor about #noun1#.",
-    "The Westboro Baptist Church is now picketing soldiers’ funerals with signs that read ‘GOD HATES #noun1.capitalize#.’",
-    "The elders of the Ibo tribe of Nigeria recommend #ad1# #noun1# as a cure for impotence.",
-    "My name is Inigo Montoya. You killed my father. Prepare for #noun1#.",
-    "From WBEZ Chicago, it’s This American Life. Today on our program, #ad1# #noun1#. Stay with us.",
-    "In line with our predictions, we find a robust correlation between #noun1# and #noun2# .",
-    "In what’s being hailed as a major breakthrough, scientists have synthesized #ad1# #noun2# in the lab.",
-    "A study published in Nature this week found that #ad1# #noun1# is good for you in small doses.",
-    "It’s not delivery. It’s #noun1#.",
-    "Excuse me, waiter. Could you take this back? This soup tastes like #ad1# #noun1#.",
-    "Aw babe, your burbs smell like #ad1# #noun1#.",
-    "Don’t miss Rachel Ray’s hit new show, Cooking with #noun1#.",
-    "Your father was a powerful wizard, Harry. Before he died, he left you something very precious: #ad1# #noun1#."
-  ],
-
-  "adjectives": [
+  "adjective": [
     "strange",
     "terrible",
     "chainlike",
@@ -1051,7 +1001,7 @@
     "straight"
   ],
 
-  "nouns": [
+  "noun": [
     
     "people",
     "history",
@@ -4540,8 +4490,7 @@
     "wireless long-range electric shock weapons",
     "WiTricity",
     "zero-energy buildings"
-  ]
-}
+  ],
 
 
 

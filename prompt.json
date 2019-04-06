@@ -1,0 +1,39 @@
+	"prompt":
+	[
+		"#name.capitalize# and #name.capitalize# have panned _______ as “#negative-ad# #big-noun#” and “#negative-ad# #big-noun#.”",
+		"Up next on #tv-station.capitalize#: “#name.capitalize# #verb.capitalize# _______.”",
+		"I’m a #sing-noun#, I’m a #sing-noun#, I’m a #sing-noun, I’m _______.",
+		"How did #name.capitalize# get her #noun# back?",
+		"Believe it or not, #celebrity.capitalize# can do a dead-on impression of _______.",
+		"It’s #verb.ing# Time! #noun.capitalize#! #noun.capitalize#! #noun.capitalize#! #noun.capitalize#! ________",
+		"Tonight on #tv-station.capitalize#: “Are You #adverb# of _______?”",
+		"I can’t believe #tv-station.capitalize# is using __________ to promote #tv-show.capitalize#.",
+		"A #positive-ad# man said, “Everything is about n1:#noun#. Except n1. n1 is about __________.”",
+		"#negative-ad.capitalize#. #negative-ad.capitalize#. __________. Coming soon to #tv-station.capitalize#,",
+		"Our #noun# is strictly #adverb#. Let’s not #adverb# things with __________.",
+		"Because you #positive-ad.ed# __________, we thought you’d like __________.",
+		"If you need him to, #celebrity# can pull some strings and get you __________, but it’ll cost you.",
+		"You can’t wait forever. It’s time to talk to your #noun# about ________.",
+		"The #place #religion# #church#  is now picketing #group#'s funerals with signs that read ‘GOD HATES ________.’",
+		"My name is #name# #lastname#. You killed my #family-member#. Prepare for ________.",
+		"From WBEZ #place#, it’s #radio-show#. Today on our program, ________. Stay with us.",
+		"#formal-pronoun#, we found you passed out #adjective# on the side of the road. What’s the last thing you remember?",
+		"What really #verb.ed# the #noun.s#?",
+		"Hey there, Young #noun.s.capitalize#! Put on your #clothes# and #verb# your #clothes#, because today we’re #verb.ing# about _________!",
+		"Hey, you #pronoun.s# want to try this awesome new #noun#? It’s called ___."
+	],
+	"setTV":
+	[
+		"[tv-station:netflix][tv-show:house of cards, black mirror, queer eye, luke cage, grace and frankie, girlboss, making a murderer, lady dynamite, flaked, bojack horseman, the ranch]",
+		"[tv-station:fox][tv-show:the passage, the simpsons, the orville, family guy, last man standing, the gifted, lucifer, bob's burgers, empire, gotham, star, hell's kitchen]",
+		"[tv-station:nbc][tv-show:this is us, the voice, brooklyn nine-nine, saturday night live, the enemy within, law and order: svu, the good place, days of our lives, new amsterdam]",
+		"[tv-station:abc][tv-show:grey's anatomy, american idol, the bachelor, the rookie, the good doctor, general hospital, whiskey cavalier, a million little things, how to get away with murder]",
+		"[tv-station:cbs][tv-show:survivor, fbi, the big bang theory, the young and the restless, ncis, the twilight zone, seal team, bull, blue bloods, mom, fam, ncis: los angeles]",
+		"[tv-station:tbs][tv-show:miracle workers, the last og, american dad, conan, final space, close enough, drop the mic, the detour, wrecked, full frontal with samantha bee, angie tribeca, search party]",
+		"[tv-station:comedy central][tv-show:south park, key & peele, broad city, the daily show, the other two, drunk history, chappele's show, nathan for you, workaholics, tosh.0, corporate]",
+		"[tv-station:nickelodeon][tv-show:sponegbob squarepants: henry danger, the loud house, paw patrol, i am frankie, rabbid invasion, max & ruby, shimmer and shine, blaze and the monster machine]",
+		"[tv-station:cw][tv-show:riverdale, jane the virgin, the flash, legacies, in the dark, arrow, supernatural, supergirl, dynasty, legends of tomorrow, crazy ex girlfriend, the 100]",
+		"[tv-station:hbo][tv-show:barry, watchmen, true detective, veep, my brilliant friend, big little lies, silicon valley, westworld, succession, last week tonight, game of thrones, insecure, the shop]",
+		"[tv-station:cartoon network][tv-show:the amazing world of gumball, steven universe, we bare bears, teen titans go, lego ninjago, young justice, unikitty, ok k.o., oggy and the cockroaches, ben 10]"
+	],
+
