@@ -22,13 +22,33 @@ def GenerateImage():
     grammar.add_modifiers(base_english)
     prompt_pre = grammar.flatten("#prompt#")
     prompt_break = nlp(prompt_pre)
-    print("Nouns: ", [chunk.text for chunk in prompt_break.noun_chunks])
-    print("Verbs: ", [token.lemma_ for token in prompt_break if token.pos_ == "VERB"])
+    pos = [token.pos_ for token in prompt_break]
+    text = [token.text for token in prompt_break]
+    for each in prompt_break.noun_chunks:
+        print(each.text)
+        for i in range(0, len(text)):
+            if each.root.text == text[i] and (each.root.dep_ == "ROOT" or each.root.dep_ == "pobj") :
+                text[i] == "#noun#"
+
+        
+    print(pos)
+    print(text)
+    for i in range(0, len(text)):
+        if "NOUN" in pos[i]:
+            if text[i] == "#noun#":
+                next
+            elif prompt_break[i].tag_ == "NNS":
+                text[i] = "#noun.s#"
+            elif "ROOT" in prompt_break[i].dep_ or "pobj" in prompt_break[i].dep_:
+                next
+            else:
+                text[i] = "#noun#"
+    prompt_post = grammar.flatten(str.join(" ", text))
+    
     for entity in prompt_break.ents:
         print(entity.text, entity.label_)
 
-
-    quip = prompt_pre
+    quip = prompt_post
     img = Image.open("static/bg.png")
     fnt = ImageFont.truetype('static/Georgia.ttf', 100)
     d = ImageDraw.Draw(img)
